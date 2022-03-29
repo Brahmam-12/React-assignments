@@ -14,8 +14,18 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
-
+ ReactDOM.render(<div><div className="row1">
+            <div className="column1"></div>
+            <div className="column2"></div>
+          </div>
+          <div className="row2">
+            <div className="column3"></div>
+          </div>
+          <div className="row3">
+            <div className="column4"></div>
+            <div className="column5"></div>
+            <div className="column6"id="block"></div>
+          </div></div>,document.getElementById('root'));
 </script>
 <!--
      Note: this page is a great way to try React but it's not suitable for production.
