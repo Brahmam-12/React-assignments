@@ -23,7 +23,7 @@
     height: 34%;
 }
 .column3{
-    width: 99vw;
+    width: calc(100% - 10px);;
     height: 33vh;
     background-color: red;
     margin: 10px;

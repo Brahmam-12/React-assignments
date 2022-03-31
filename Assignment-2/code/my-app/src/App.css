@@ -1,38 +1,61 @@
-.App {
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+img {
+  width: 200px;
+  margin-top: 15px;
+}
+
+.image {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-right: 130px;
+  color: deepskyblue;
+  font-size: xx-large;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p.p1 {
+  margin-bottom: 5px;
+  margin-right: 135px;
+  margin-top: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3.city {
+  margin-top: 5px;
+  margin-right: 110px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+p.p2 {
+  margin-right: 105px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3.blood {
+  margin-top: 0px;
+  margin-right: 165px;
+}
+
+p.p3 {
+  margin-right: 165px;
+  margin-bottom: 5px;
+}
+
+h3.age {
+  margin-right: 169px;
+  margin-top: 0px;
 }
