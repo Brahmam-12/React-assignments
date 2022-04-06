@@ -1,0 +1,66 @@
+.block {display: flex;
+  justify-content: space-between;
+  width: 94%;
+  border: 1px solid aliceblue;
+  padding: 10px;margin-left: 10px;}
+
+.icon {margin-top: 3px;font-size: 23px;}
+
+.block span {color: #ccc;}
+
+.name span {color: black;}
+
+button.btn {width: 4rem;height: 2rem;margin-top: 7px;background-color: black;color: white;}
+
+.Information {border: 2px solid aliceblue;margin-top: 20px;padding: 10px;width: 90%;margin-left: 30px;}
+
+
+
+.Orderinfo .s1 {display: inline-block;
+    width: 30%;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-weight: bolder;}
+
+.Orderinfo span {font-weight: 0px;
+    color: #bbb;}
+
+.Orderinfo {height: 80px;
+    width: 92%;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: aliceblue;}
+
+.update {display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    margin-right: 5px;margin-top: 13px;}
+    .Productlist {display: flex;
+      width: 92%;
+      height: 120px;
+      border: 1px solid #ccc;
+      margin-top: 25px;
+      margin-left: 30px;}
+  
+  
+  
+  .Productlist img {height: 90px;
+      width: 90px;
+      margin: 15px 0px;
+      margin-left: 40px;
+      margin-right: 5px;}
+  
+  .square {height: 15px;
+      width: 15px;
+      border: 1px solid orange;
+      margin-top: 50px;
+      margin-left: 25px;}
+  
+  .title {margin-left: 15px ;margin-top: 15px;}
+  
+  .i span {font-weight: lighter;color: #ccc;}
+  
+  .arrow {margin-left: 432px;margin-top: 45px;font-size: 23px;color: #ccc;font-size: 25px;}
