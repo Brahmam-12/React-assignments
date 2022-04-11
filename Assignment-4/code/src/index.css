@@ -7,17 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.PostContainer {border: 1px solid #d5d5d5;
-  
+.PostContainer{
+  border: 1px solid #d5d5d5;
   width: 500px;
   border-radius: 5px;
   margin: 20px 20px;
+  margin-left: 410px;
 }
 
 .PostTitle {
   font-weight: 600;
   color: #343434;
-  line-height: 20px;}
+  line-height: 20px;
+}
 
 .PostLocation {
     color: #b3b3b3;
@@ -63,3 +65,10 @@ body {
 .Likes {color: #adadad;padding-left: 8px;font-size: 14px;}
 
 .PostCaption {color: #3a3a3a;font-weight: 600;padding-left: 18px;padding-bottom: 10px;}
+
+.Header {display: flex;border: 2px solid aliceblue;}
+
+.Header img {max-width: 100px;margin-left: 65%;}
+
+.Header h1 {margin-left: 139px;color: green;}
+.Postview {border: 2px solid antiquewhite;}
