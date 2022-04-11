@@ -1,5 +1,6 @@
 import React ,{ useState, useEffect } from 'react';
 import Post from "./Post";
+import Header from "./Post/Header";
 
 
 
@@ -16,11 +17,14 @@ const Postview=()=> {
     setPostsAsync();
   }, []);
   return (
+    
     <div className="Postview">
+      <Header/>
       {posts.map((post, index) => (  
       <Post key={index} config={post}/>
       ))}
     </div>
+    
   );
 }
 
